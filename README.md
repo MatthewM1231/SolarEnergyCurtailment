@@ -1,2 +1,6 @@
-# SolarEnergyCurtailment
-Solar Energy Curtailment machine learning model
+# Solar Energy Curtailment Machine Learning Model
+Solar energy curtailment is an issue in the energy industry where usable solar energy is intentionally wasted in order to prevent overload on the grid. Machine learning is used often for predicting renewable energy generation and grid demand already, therefore is a commonly used tool in energy utilities. Specifically, creating a linear regression model using machine learning is a useful tool to solve this problem because there are many different factors that affect solar energy curtailment. To find the appropriate data related to solar energy curtailment, I downloaded the Production and Curtailments .xlsx data files for the years 2023 through 2025 from this link: https://www.caiso.com/about/our-business/managing-the-evolving-grid#renewable-curtailment
+
+To read more and see the code used to build both an OLS model and LASSO model to predict solar energy curtailment based off of various features including hour, load, solar generation, wind generation, and nuclear generation, view the file titled SolarEnergyCurtailmentModel-MatthewMenon
+
+All data included in this project was obtained from the California Independent System Operator (ISO) website.
